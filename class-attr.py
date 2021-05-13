@@ -24,9 +24,6 @@ print(User.active_users)
 print(userA.logout())
 print(User.active_users)
 
-
-
-
-
-
-# print(userA.full_name())
+print(userA.full_name())
+print(userB.full_name())
+print(userC.full_name())
