@@ -64,10 +64,12 @@ class Quiz:
 
 
 q1 = Question("What is the best programming language ?",["python","java","dart"],"python")
-q2 = Question("which is the easiest programming language ?",["python","java","dart"],"python")
-q3 = Question("what is the most popular programming language ?",["python","java","dart"],"python")
+q2 = Question("Which is the easiest programming language ?",["python","java","dart"],"python")
+q3 = Question("What is the most popular programming language ?",["python","java","dart"],"python")
+
 
 _questions = [q1,q2,q3]
 
 quiz = Quiz(_questions)
+
 print(quiz.loadQuestion())
