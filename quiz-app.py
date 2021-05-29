@@ -52,9 +52,8 @@ class Quiz:
         print("your test result".center(50,'*'))
         point = 100 / len(self.questions)
         totalPoint = round(self.score * point)
-        print(f"toplam {len(self.questions)} sorunun {self.score} tanesini bildiniz.")
         print("Score:",totalPoint)
-
+        
 
     def displayProgress(self):
         totalQuestion = len(self.questions)
