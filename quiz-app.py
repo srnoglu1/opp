@@ -18,7 +18,6 @@ class Quiz:
         self.questionIndex = 0
         self.score = 0
 
-
     def getQuestion(self):
         return self.questions[self.questionIndex]
 
