@@ -15,13 +15,16 @@ class deck:
     def __init__(self):
         self.cards = [card(type,value) for type in deck.types for value in deck.values ]
 
+    
     def cardNumber(self):
         return self.cards
 
+    
     def shuffleTheCard(self):
         if self.cardNumber()<52:
             raise ValueError ("you can shuffle cards before the deck is destroyed.")
         shuffle (self.cards)
+    
     
     def giveCards(self,piece):
         cardNumber = self.cardNumber()
